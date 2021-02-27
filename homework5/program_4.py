@@ -44,8 +44,8 @@ def decryption(enc_string,key):
             result = result + i
 
     print(result)
-
+    return result
 # Assumption made:
 # No UpperCase and No Digits/Symbols
 encrypted_string=cipher("decorator",key)
-decryption(encrypted_string,key)
+decrypted_string=decryption(encrypted_string,key)
